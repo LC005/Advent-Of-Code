@@ -1,12 +1,29 @@
 {
   "name": "advent-of-code",
   "version": "1.0.0",
-  "main": "code.js",
+  "description": "This is Kay Karssing's implementation of multiple years of advent of code challenges",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "type": "module"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LC005/Advent-Of-Code.git"
+  },
+  "keywords": [
+    "AOC",
+    "advent-of-code"
+  ],
+  "author": "Kay Karssing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LC005/Advent-Of-Code/issues"
+  },
+  "homepage": "https://github.com/LC005/Advent-Of-Code#readme",
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
 }

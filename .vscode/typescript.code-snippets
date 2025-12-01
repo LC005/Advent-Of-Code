@@ -1,0 +1,26 @@
+{
+  "FileImporter snippet": {
+    "prefix": "fileimporter",
+    "body": [
+      "import { FileImporter } from '../../../common/file-importer';",
+      "",
+      "const fileImporter = new FileImporter({",
+      "  modifyData: (data: string) => {},",
+      "});"
+    ],
+    "description": "Insert FileImporter boilerplate code."
+  }
+
+  ,
+  "mainLoop function": {
+    "prefix": "mainloop",
+    "body": [
+      "function mainLoop() {",
+      "  // ...your logic here...",
+      "}",
+      "",
+      "console.log('Solution:', mainLoop());"
+    ],
+    "description": "Basic mainLoop function structure."
+  },
+}

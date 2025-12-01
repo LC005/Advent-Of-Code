@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "preLaunchTask": "tsc: build - tsconfig.json",
+      "name": "Launch Challenge with Data Prompt",
+      "console": "integratedTerminal",
+      "program": "${file}",
+      "args": [
+        "${fileDirname}/../${input:dataFile}"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "dataFile",
+      "type": "pickString",
+      "description": "Select data file",
+      "options": [
+        "data.txt",
+        "test_data.txt"
+      ],
+      "default": "test_data.txt"
+    }
+  ]
+}
